@@ -19,8 +19,8 @@ this_dir, this_filename = os.path.split(__file__)
 ##########################
 # Earth radius and mass
 ##########################
-Planet_Path = os.path.join(this_dir1, "PREM500_Mod.csv")
-VelocityDist_Path = os.path.join(this_dir2, "EarthDMVelDist.csv")
+Planet_Path = os.path.join(this_dir, "PREM500_Mod.csv")
+VelocityDist_Path = os.path.join(this_dir, "EarthDMVelDist.csv")
 Planet_Radius = 6.371e8     # cm
 Planet_Mass   = 5.972e27    # grams
 Planet_Life   = yr2s(4.5e9) # 4.5 Gyr -> sec
